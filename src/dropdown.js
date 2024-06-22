@@ -1,4 +1,3 @@
-//TODO variable size
 function createDropDown(options, placeholder = "") {
   const dropDownContainer = document.createElement("div");
   const optionMenu = document.createElement("div");
@@ -34,7 +33,6 @@ function createArrow(optionMenu, header) {
 }
 
 function drowDown(left, right, optionMenu, header) {
-  //TODO gap spzzing in css
   if (optionMenu.classList.contains("active")) {
     optionMenu.classList.add("deactivate");
     optionMenu.addEventListener(
